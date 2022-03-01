@@ -1,0 +1,186 @@
+[Root]
+Most Recent Package=AGDISP Standard Setup
+
+
+[Package|AGDISP Standard Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\setup\Package
+
+[Package|AGDISP Standard Setup|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|AGDISP Standard Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AGDISP Standard Setup|Files Found]
+
+[Package|AGDISP Standard Setup|Files Released]
+Agdisp.hlp=
+agdisp.CHI=
+
+[Package|AGDISP Standard Setup|Missing Dependency Information]
+
+[Package|AGDISP Standard Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+
+[Package|AGDISP Standard Setup|Files Added]
+c:\documents and settings\xpmuser\my documents\work\agdisp-current\agdisp.mdb=
+c:\documents and settings\xpmuser\my documents\work\agdisp-current\agdispusermanual.pdf=
+c:\documents and settings\xpmuser\my documents\work\agdisp-current\agdmaa.mdb=
+c:\documents and settings\xpmuser\my documents\work\agdisp-current\agdisp.chm=
+
+[Package|AGDISP Standard Setup|Files Removed]
+
+[Package|AGDISP Standard Setup|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM32\msjet35.dll=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\Msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\Agdisp.exe=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp32.dll=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.mdb=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\AGDISPUserManual.pdf=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdmaa.mdb=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.chm=Yes
+C:\WINDOWS\system32\hh.exe=Yes
+
+[Package|AGDISP Standard Setup|Configure Registry Files]
+Applicable=No
+
+[Package|AGDISP Standard Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|AGDISP Standard Setup|Install Locations]
+C:\Documents and Settings\tom\My Documents\Work\agdisp\Agdisp.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdisp32.dll=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\tom\My Documents\Work\agdisp\Agdisp.hlp=$(AppPath)
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdisp.mdb=$(AppPath)
+C:\Documents and Settings\tom\My Documents\Work\agdisp\AGDISPUserManual.PDF=$(AppPath)
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdmaa.mdb=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\Agdisp.exe=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdisp32.dll=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\Agdisp.hlp=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdisp.mdb=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\AGDISPUserManual.pdf=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdmaa.mdb=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\Agdisp.exe=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp32.dll=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\Agdisp.hlp=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.mdb=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\AGDISPUserManual.pdf=$(AppPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdmaa.mdb=$(AppPath)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.chm=$(AppPath)
+C:\WINDOWS\system32\hh.exe=$(WinSysPath)
+
+[Package|AGDISP Standard Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\tom\My Documents\Work\agdisp\Agdisp.exe=No
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdisp32.dll=No
+C:\Documents and Settings\tom\My Documents\Work\agdisp\Agdisp.hlp=No
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdisp.mdb=No
+C:\Documents and Settings\tom\My Documents\Work\agdisp\AGDISPUserManual.PDF=No
+C:\Documents and Settings\tom\My Documents\Work\agdisp\agdmaa.mdb=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\Agdisp.exe=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdisp32.dll=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\Agdisp.hlp=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdisp.mdb=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\AGDISPUserManual.pdf=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp\agdmaa.mdb=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\Agdisp.exe=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp32.dll=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\Agdisp.hlp=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.mdb=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\AGDISPUserManual.pdf=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdmaa.mdb=No
+C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\agdisp.chm=No
+
+[Package|AGDISP Standard Setup|Distribution]
+Type=single
+Size=
+Title=AGDISP
+
+[Package|AGDISP Standard Setup|Package]
+PackageFolder=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\setup\Package
+ProjectFolder=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current
+ServerSideCab=
+File1=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\setup\Package\setup.exe
+File2=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\setup\Package\Setup.Lst
+File3=C:\Documents and Settings\XPMUser\My Documents\Work\agdisp-current\setup\Package\Agdisp.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|AGDISP Standard Setup|IconGroups]
+Group0=AGDISP
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|AGDISP Standard Setup|AGDISP]
+Icon1=Agdisp.exe
+Title1=AGDISP
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=AGDISPUserManual.PDF
+Title2=AGDISP User Manual
+StartIn2=$(AppPath)
+Key2=Icon4

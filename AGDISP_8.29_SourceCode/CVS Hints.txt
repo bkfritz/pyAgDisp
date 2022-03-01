@@ -1,0 +1,37 @@
+Hints with using CVS with AgDRIFT development
+
+cvs get agdrift
+(edit existing source, add new form)
+cvs add -m"New drop form" drop.frm
+cvs add -kb -m"New drop form resources" drop.frx     <- binary
+cvs commit -m"Changes for version 1.0"
+cvs release agdrift
+cvs rtag release-1_00 agdrift
+
+
+WinCVS and AgDRIFT
+
+How do I set up WinCVS for AgDRIFT?:
+-Cvs Admin->Preferences
+ General tab (others tabs retain default values):
+ CVSROOT: tom@nomad.continuum-dynamics.com:/usr1/cvsroot
+ Authentication: ".rhosts" file on the cvs server
+
+Okay, I've finished the latest version and I'm ready to store it
+in the repository:
+-Start WinCVS
+-Browse and select agdrift folder
+-If there are new files to be added (question mark icon),
+ select them, right click, Add Selection. Same for missing files;
+ possibly Remove Selection, and unknown files; possibly Add Selection.
+ Do this for all subfolders.
+-Cvs Folders->Commit Folder (sends chages to repository) Do this for the
+ top-level agdrift folder and let it recurse.
+-Cvs Folders->Update Folder (updates WinCVS Icons) Do this for the
+ top-level agdrift folder and let it recurse.
+-Cvs Admin->Tag Module->Create a tag...
+ New tag name:  "release-1_10" or similar
+ Module to tag: "agdrift" The module name
+
+I want to see all the revisions that are in the repository:
+"cvs history -a -T -n agdrift", no quotes, type in the command window.
