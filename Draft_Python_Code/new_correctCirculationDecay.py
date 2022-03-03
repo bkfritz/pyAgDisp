@@ -10,7 +10,7 @@ def correctCirculationDecay(rund, xnv, nvor, gdk, gdko, bstab, nvar):
                 htem = 2 * rund.zbar[n] / tem
 
                 if htem > 2:
-                    gdkt = gdko + (gdk - gdko) / (0.102167 * (htem ** 3.291))
+                    gdkt = gdko + (gdk - gdko) / 0.102167 / (htem ** 3.291)
                 else:
                     gdkt = gdk
 
