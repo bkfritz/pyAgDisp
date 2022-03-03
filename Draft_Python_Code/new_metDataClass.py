@@ -28,11 +28,11 @@ class metData:
     windspd: float = field(default=2.24, metadata={'unit':'m/s'}) # Default starting value Agdisp
     winddir: float = field(default=-90, metadata={'unit':'deg'}) # Wind direction
     windhgt: float = field(default=2.0, metadata={'unit':'m'}) # Wind measurement height, 2 is agdisp default
-    surfruff: float = field(default=0.1, metadata={'unit':'m'}) # Middle-ish of crops in Agdisp
+    surfruff: float = field(default=0.04, metadata={'unit':'m'}) # Middle-ish of crops in Agdisp
     temp: float = field(default=18.33 ,metadata={'unit':'degC'}) # Default starting value Agdisp
     humidity: float = field(default=50, metadata={'unit':'%'}) # Default starting value Agdisp
     insol: int = field(default=4) # Insolation Index: 0-6, Strong, slight etc.  4 default, night and overcast
-    prtr: float = field(default=0.0, metadata={'unit':'mb'}) # Ambient pressure, set in Agdisp Advance settings
+    prtr: float = field(default=1013.0, metadata={'unit':'mb'}) # Ambient pressure, set in Agdisp Advance settings
 
     # Other default advanced settings:
     # The 2* below on gdko and gdk is done in Aginit.for lines 341-342
