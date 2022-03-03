@@ -35,8 +35,9 @@ class metData:
     prtr: float = field(default=0.0, metadata={'unit':'mb'}) # Ambient pressure, set in Agdisp Advance settings
 
     # Other default advanced settings:
-    gdko: float = field(default=0.15, metadata={'unit': 'm/s'})  # Vortext decay rate OGE  NEEDS AGCHK
-    gdk: float = field(default=0.56, metadata={'unit': 'm/s'})  # Vortext decay rate IGE   NEEDS AGCHK
+    # The 2* below on gdko and gdk is done in Aginit.for lines 341-342
+    gdko: float = field(default=2*0.15, metadata={'unit': 'm/s'})  # Vortext decay rate OGE  NEEDS AGCHK
+    gdk: float = field(default=2*0.56, metadata={'unit': 'm/s'})  # Vortext decay rate IGE   NEEDS AGCHK
 
     def changeMet(self):
         print('Add this function later')
